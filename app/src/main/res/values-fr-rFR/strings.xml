@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Grupo10_Proyecto01</string>
+    <string name="user">Utilisateur</string>
+    <string name="password">Mot de passe</string>
+    <string name="login">"Se connecter "</string>
+    <string name="logo_de_inicio_de_sesi_n">Logo de connexion</string>
+    <string name="bienvenida">Bienvenue,</string>
+    <string name="logout">Déconnexion</string>
+</resources>

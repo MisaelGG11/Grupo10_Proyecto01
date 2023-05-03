@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Grupo10_Proyecto01</string>
-
+    <string name="user">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="logo_de_inicio_de_sesi_n">Logo de inicio de sesión</string>
+    <string name="bienvenida">Bienvenido,</string>
+    <string name="logout">Cerrar sesión</string>
 </resources>
