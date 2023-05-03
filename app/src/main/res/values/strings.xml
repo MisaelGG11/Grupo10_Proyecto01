@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Grupo10_Proyecto01</string>
 
+    <string name="gestion_usuario">Gestión de usuarios</string>
+    <string name="crear_usuario">Crear usuario</string>
+    <string name="actualizar_informacion">Actualizar información</string>
+    <string name="detalles_de_usuario">Detalles de usuario</string>
 </resources>

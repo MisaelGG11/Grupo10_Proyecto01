@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/gestion_usuario_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="94dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/gestion_usuario"
+        android:textSize="24sp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/crear_usuario_boton"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gestion_usuario_titulo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="96dp"
+        android:text="@string/crear_usuario"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/actualizar_informacion_boton"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:text="@string/actualizar_informacion"
+        android:layout_below="@id/crear_usuario_boton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/detalles_usuario_boton"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/actualizar_informacion_boton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/detalles_de_usuario"
+        tools:ignore="HardcodedText,TextSizeCheck" />
+
+</RelativeLayout>
