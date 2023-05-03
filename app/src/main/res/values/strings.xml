@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">Grupo10_Proyecto01</string>
-
+    <string name="nombre_evento_especial">Nombre del evento:</string>
+    <string name="tipo_evento_especia">Tipo de evento especial:</string>
+    <string name="edificio">Edificio:</string>
+    <string name="localidad">Localidad:</string>
+    <string name="fecha">Fecha:</string>
+    <pstring name="seleccione_horario">Seleccione horario:</pstring>
+    <string name="crear">Crear</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="volver">Volver</string>
 </resources>
