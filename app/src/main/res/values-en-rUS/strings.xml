@@ -32,4 +32,10 @@
     <string name="txtViewDocentePropuestaEstado2">En revision</string>
     <string name="txtViewDocentePropuestaEstado3">Denegado</string>
     <string name="txtViewDocentePropuestaEstado4">Requiere cambios</string>
+
+    <string name="txtViewDocentePropuestaEspecificaDetalladaDocente">Coordinator:</string>
+    <string name="btnSecretarioAprobar">Approve</string>
+    <string name="btnSecretarioDenegar">Decline</string>
+    <string name="btnEncargadoAprobar">Approve</string>
+    <string name="btnEncargadoDenegar">Decline</string>
 </resources>

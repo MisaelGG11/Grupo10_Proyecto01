@@ -29,11 +29,16 @@
     <string name="txtViewDocentePropuestaEspecificaInsertarMateria">Materia:</string>
     <string name="btnDocentePropuestaEspecificaInsertarGuardar">Guardar</string>
     <string name="txtViewDocentePropuestaEspecificaDetalladaEstado">Estado:</string>
+    <string name="txtViewDocentePropuestaEspecificaDetalladaDocente">Coordinador:</string>
 
     <string name="txtViewDocentePropuestaEstado1">Aprobado</string>
     <string name="txtViewDocentePropuestaEstado2">En revision</string>
     <string name="txtViewDocentePropuestaEstado3">Denegado</string>
     <string name="txtViewDocentePropuestaEstado4">Requiere cambios</string>
 
+    <string name="btnSecretarioAprobar">Aprobar</string>
+    <string name="btnSecretarioDenegar">Denegar</string>
+    <string name="btnEncargadoAprobar">Aprobar</string>
+    <string name="btnEncargadoDenegar">Denegar</string>
 
 </resources>
