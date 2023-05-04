@@ -16,6 +16,7 @@
     <string name="txtViewDocentePropuestaGeneralEstado">Estado:</string>
     <string name="txtViewDocentePropuestaGeneralPropuestasEspecificas">Propuestas especificas:</string>
     <string name="btnDocentePropuestaGeneralAgregar">Agregar</string>
+
     <string name="mp_opcion01">Profil utilisateur</string>
     <string name="mp_opcion02">Gérer les propositions générales</string>
     <string name="mp_opcion03">Gérer les propositions d’événements</string>
@@ -24,5 +25,28 @@
     <string name="email_perfil">Courriel</string>
     <string name="telefono_perfil">Téléphone</string>
     <string name="categoria_perfil">Catégorie</string>
-    <string name="menuprincipal">Menu principal</string>
+
+    <string name="txtViewDocentePropuestaEspecificaInsertarTitulo">Propuesta Especifica []</string>
+    <string name="txtViewDocentePropuestaEspecificaInsertarEdificio">Edificio:</string>
+    <string name="txtViewDocentePropuestaEspecificaInsertarTipoGrupo">Tipo Grupo:</string>
+    <string name="txtViewDocentePropuestaEspecificaInsertarCupo">Cupo:</string>
+    <string name="txtViewDocentePropuestaEspecificaInsertarLocal">Local:</string>
+    <string name="txtViewDocentePropuestaEspecificaInsertarNGrupo">N° Grupo:</string>
+    <string name="txtViewDocentePropuestaEspecificaInsertarCapacidad">Capacidad:</string>
+    <string name="txtViewDocentePropuestaEspecificaInsertarDia">Dia:</string>
+    <string name="txtViewDocentePropuestaEspecificaInsertarHorario">Horario:</string>
+    <string name="txtViewDocentePropuestaEspecificaInsertarMateria">Materia:</string>
+    <string name="btnDocentePropuestaEspecificaInsertarGuardar">Guardar</string>
+    <string name="txtViewDocentePropuestaEspecificaDetalladaEstado">Estado:</string>
+    <string name="txtViewDocentePropuestaEstado1">Aprobado</string>
+    <string name="txtViewDocentePropuestaEstado2">En revision</string>
+    <string name="txtViewDocentePropuestaEstado3">Denegado</string>
+    <string name="txtViewDocentePropuestaEstado4">Requiere cambios</string>
+
+    <string name="txtViewDocentePropuestaEspecificaDetalladaDocente">Coordinateur:</string>
+    <string name="btnSecretarioAprobar">Approuver</string>
+    <string name="btnSecretarioDenegar">Déclin</string>
+    <string name="btnEncargadoAprobar">Approuver</string>
+    <string name="btnEncargadoDenegar">Déclin</string>
+
 </resources>

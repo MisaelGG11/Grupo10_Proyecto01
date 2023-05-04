@@ -8,6 +8,7 @@
     <string name="logo_de_inicio_de_sesi_n">Logo de inicio de sesión</string>
 
     <!--Strings para MenuPrincipal Activity-->
+    <string name="menuprincipal">Menú Principal</string>
     <string name="bienvenida">Bienvenido,</string>
     <string name="mp_opcion01">Perfil de usuario</string>
     <string name="mp_opcion02">Gestionar propuestas generales</string>
@@ -30,7 +31,30 @@
     <string name="txtViewDocentePropuestaGeneralEstado">Estado:</string>
     <string name="txtViewDocentePropuestaGeneralPropuestasEspecificas">Propuestas especificas:</string>
     <string name="btnDocentePropuestaGeneralAgregar">Agregar</string>
-    <string name="menuprincipal">Menú Principal</string>
 
+
+    <string name="txtViewDocentePropuestaEspecificaInsertarTitulo">Propuesta Especifica []</string>
+    <string name="txtViewDocentePropuestaEspecificaInsertarEdificio">Edificio:</string>
+    <string name="txtViewDocentePropuestaEspecificaInsertarTipoGrupo">Tipo Grupo:</string>
+    <string name="txtViewDocentePropuestaEspecificaInsertarCupo">Cupo:</string>
+    <string name="txtViewDocentePropuestaEspecificaInsertarLocal">Local:</string>
+    <string name="txtViewDocentePropuestaEspecificaInsertarNGrupo">N° Grupo:</string>
+    <string name="txtViewDocentePropuestaEspecificaInsertarCapacidad">Capacidad:</string>
+    <string name="txtViewDocentePropuestaEspecificaInsertarDia">Dia:</string>
+    <string name="txtViewDocentePropuestaEspecificaInsertarHorario">Horario:</string>
+    <string name="txtViewDocentePropuestaEspecificaInsertarMateria">Materia:</string>
+    <string name="btnDocentePropuestaEspecificaInsertarGuardar">Guardar</string>
+    <string name="txtViewDocentePropuestaEspecificaDetalladaEstado">Estado:</string>
+    <string name="txtViewDocentePropuestaEspecificaDetalladaDocente">Coordinador:</string>
+
+    <string name="txtViewDocentePropuestaEstado1">Aprobado</string>
+    <string name="txtViewDocentePropuestaEstado2">En revision</string>
+    <string name="txtViewDocentePropuestaEstado3">Denegado</string>
+    <string name="txtViewDocentePropuestaEstado4">Requiere cambios</string>
+
+    <string name="btnSecretarioAprobar">Aprobar</string>
+    <string name="btnSecretarioDenegar">Denegar</string>
+    <string name="btnEncargadoAprobar">Aprobar</string>
+    <string name="btnEncargadoDenegar">Denegar</string>
 
 </resources>
