@@ -17,5 +17,23 @@
     <string name="txtViewDocentePropuestaGeneralEstado">Estado:</string>
     <string name="txtViewDocentePropuestaGeneralPropuestasEspecificas">Propuestas especificas:</string>
     <string name="btnDocentePropuestaGeneralAgregar">Agregar</string>
+    <string name="txtViewDocentePropuestaEspecificaInsertarTitulo">Propuesta Especifica []</string>
+    <string name="txtViewDocentePropuestaEspecificaInsertarEdificio">Edificio:</string>
+    <string name="txtViewDocentePropuestaEspecificaInsertarTipoGrupo">Tipo Grupo:</string>
+    <string name="txtViewDocentePropuestaEspecificaInsertarCupo">Cupo:</string>
+    <string name="txtViewDocentePropuestaEspecificaInsertarLocal">Local:</string>
+    <string name="txtViewDocentePropuestaEspecificaInsertarNGrupo">N° Grupo:</string>
+    <string name="txtViewDocentePropuestaEspecificaInsertarCapacidad">Capacidad:</string>
+    <string name="txtViewDocentePropuestaEspecificaInsertarDia">Dia:</string>
+    <string name="txtViewDocentePropuestaEspecificaInsertarHorario">Horario:</string>
+    <string name="txtViewDocentePropuestaEspecificaInsertarMateria">Materia:</string>
+    <string name="btnDocentePropuestaEspecificaInsertarGuardar">Guardar</string>
+    <string name="txtViewDocentePropuestaEspecificaDetalladaEstado">Estado:</string>
+
+    <string name="txtViewDocentePropuestaEstado1">Aprobado</string>
+    <string name="txtViewDocentePropuestaEstado2">En revision</string>
+    <string name="txtViewDocentePropuestaEstado3">Denegado</string>
+    <string name="txtViewDocentePropuestaEstado4">Requiere cambios</string>
+
 
 </resources>
