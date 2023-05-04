@@ -21,9 +21,6 @@
             android:name=".PropuestaEspecificaInsertarActivity"
             android:exported="false" />
         <activity
-            android:name=".PropuestaEspecificaActualizarActivity"
-            android:exported="false" />
-        <activity
             android:name=".PropuestaEspecificaDetalladaActivity"
             android:exported="false" />
         <activity

@@ -7,4 +7,13 @@
     <string name="logo_de_inicio_de_sesi_n">Login logo</string>
     <string name="bienvenida">Welcome,</string>
     <string name="logout">Logout</string>
+    <string name="txtViewDocenteMenuCicloInstrucciones">Selecciona ciclo a gestionar</string>
+    <string name="txtViewDocenteMenuCicloTitulo">Ciclos</string>
+    <string name="txtViewDocenteMenuMateriaTitulo">Materias Asignadas</string>
+    <string name="txtViewDocenteMenuMateriaInstrucciones">Seleccione la materia a gestionar</string>
+    <string name="txtViewDocentePropuestaGeneralTitulo">Propuesta General []</string>
+    <string name="txtViewDocentePropuestaGeneralCodMateria">Cod Materia:</string>
+    <string name="txtViewDocentePropuestaGeneralEstado">Estado:</string>
+    <string name="txtViewDocentePropuestaGeneralPropuestasEspecificas">Propuestas especificas:</string>
+    <string name="btnDocentePropuestaGeneralAgregar">Agregar</string>
 </resources>
