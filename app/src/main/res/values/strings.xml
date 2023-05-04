@@ -27,15 +27,15 @@
     <string name="txtViewDocenteMenuMateriaTitulo">Materias Asignadas</string>
     <string name="txtViewDocenteMenuMateriaInstrucciones">Seleccione la materia a gestionar</string>
     <string name="txtViewDocentePropuestaGeneralTitulo">Propuesta General []</string>
-    <string name="txtViewDocentePropuestaGeneralCodMateria">Cod Materia:</string>
+    <string name="txtViewDocentePropuestaGeneralCodMateria">Código de Materia:</string>
     <string name="txtViewDocentePropuestaGeneralEstado">Estado:</string>
-    <string name="txtViewDocentePropuestaGeneralPropuestasEspecificas">Propuestas especificas:</string>
+    <string name="txtViewDocentePropuestaGeneralPropuestasEspecificas">Propuestas Específicas:</string>
     <string name="btnDocentePropuestaGeneralAgregar">Agregar</string>
 
 
-    <string name="txtViewDocentePropuestaEspecificaInsertarTitulo">Propuesta Especifica []</string>
+    <string name="txtViewDocentePropuestaEspecificaInsertarTitulo">Propuesta Específica []</string>
     <string name="txtViewDocentePropuestaEspecificaInsertarEdificio">Edificio:</string>
-    <string name="txtViewDocentePropuestaEspecificaInsertarTipoGrupo">Tipo Grupo:</string>
+    <string name="txtViewDocentePropuestaEspecificaInsertarTipoGrupo">Tipo de Grupo:</string>
     <string name="txtViewDocentePropuestaEspecificaInsertarCupo">Cupo:</string>
     <string name="txtViewDocentePropuestaEspecificaInsertarLocal">Local:</string>
     <string name="txtViewDocentePropuestaEspecificaInsertarNGrupo">N° Grupo:</string>
