@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
 import android.app.ListActivity;
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -23,8 +24,9 @@ public class MenuPrincipalActivity extends AppCompatActivity {
     private ArrayAdapter<String> lvAdpter;
 
     String rol = "Secretario";
-    String user = "Julio Cesar";
-    String[] menu={"Perfil de usuario","Gestionar propuestas generales","Gestionar propuestas de eventos", "Revisar propuestas"};
+    //Context context;
+    String user = "Fabio Flores";
+    String[] menu = new String[4];
     String[] activities={"UsuarioPerfilActivity","DocenteMenuCicloActivity","UsuarioPerfilActivity","UsuarioPerfilActivity"};
 
     @SuppressLint("MissingInflatedId")
@@ -32,6 +34,11 @@ public class MenuPrincipalActivity extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_principal);
+
+        menu[0] = getResources().getString(R.string.mp_opcion01);
+        menu[1] = getResources().getString(R.string.mp_opcion02);
+        menu[2] = getResources().getString(R.string.mp_opcion03);
+        menu[3] = getResources().getString(R.string.mp_opcion04);
 
         lvAdpter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, menu);
         menuPrincipal = findViewById(R.id.lvMenuPrincipal);

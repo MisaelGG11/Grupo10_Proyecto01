@@ -1,12 +1,25 @@
 <resources>
     <string name="app_name">Grupo10_Proyecto01</string>
 
+    <!--Strings para Main Activity-->
     <string name="user">Usuario</string>
     <string name="password">Contraseña</string>
     <string name="login">Iniciar sesión</string>
     <string name="logo_de_inicio_de_sesi_n">Logo de inicio de sesión</string>
+
+    <!--Strings para MenuPrincipal Activity-->
     <string name="bienvenida">Bienvenido,</string>
+    <string name="mp_opcion01">Perfil de usuario</string>
+    <string name="mp_opcion02">Gestionar propuestas generales</string>
+    <string name="mp_opcion03">Gestionar propuestas de eventos</string>
+    <string name="mp_opcion04">Revisar propuestas</string>
     <string name="logout">Cerrar sesión</string>
+
+    <!--Strings para UsuarioPerfil Activity-->
+    <string name="nombre_perfil">Nombre</string>
+    <string name="email_perfil">Correo electrónico</string>
+    <string name="telefono_perfil">Teléfono</string>
+    <string name="categoria_perfil">Categoría</string>
 
     <string name="txtViewDocenteMenuCicloInstrucciones">Selecciona ciclo a gestionar</string>
     <string name="txtViewDocenteMenuCicloTitulo">Ciclos</string>
@@ -17,5 +30,7 @@
     <string name="txtViewDocentePropuestaGeneralEstado">Estado:</string>
     <string name="txtViewDocentePropuestaGeneralPropuestasEspecificas">Propuestas especificas:</string>
     <string name="btnDocentePropuestaGeneralAgregar">Agregar</string>
+    <string name="menuprincipal">Menú Principal</string>
+
 
 </resources>

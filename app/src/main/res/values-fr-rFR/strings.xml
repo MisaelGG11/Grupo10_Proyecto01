@@ -16,4 +16,13 @@
     <string name="txtViewDocentePropuestaGeneralEstado">Estado:</string>
     <string name="txtViewDocentePropuestaGeneralPropuestasEspecificas">Propuestas especificas:</string>
     <string name="btnDocentePropuestaGeneralAgregar">Agregar</string>
+    <string name="mp_opcion01">Profil utilisateur</string>
+    <string name="mp_opcion02">Gérer les propositions générales</string>
+    <string name="mp_opcion03">Gérer les propositions d’événements</string>
+    <string name="mp_opcion04">Examiner les propositions</string>
+    <string name="nombre_perfil">Nom</string>
+    <string name="email_perfil">Courriel</string>
+    <string name="telefono_perfil">Téléphone</string>
+    <string name="categoria_perfil">Catégorie</string>
+    <string name="menuprincipal">Menu principal</string>
 </resources>
