@@ -43,6 +43,9 @@
     <string name="txtViewDocentePropuestaEstado3">Denegado</string>
     <string name="txtViewDocentePropuestaEstado4">Requiere cambios</string>
 
+    <string name="btnSecretarioRevisar">Examen</string>
+    <string name="btnEncargadoRevisar">Examen</string>
+
     <string name="txtViewDocentePropuestaEspecificaDetalladaDocente">Coordinateur:</string>
     <string name="btnSecretarioAprobar">Approuver</string>
     <string name="btnSecretarioDenegar">Déclin</string>
