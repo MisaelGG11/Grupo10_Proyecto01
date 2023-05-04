@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Grupo10_Proyecto01</string>
+    <string name="user">Utilisateur</string>
+    <string name="menuprincipal">Menu Principal</string>
+    <string name="password">Mot de passe</string>
+    <string name="login">"Se connecter "</string>
+    <string name="logo_de_inicio_de_sesi_n">Logo de connexion</string>
+    <string name="bienvenida">Bienvenue,</string>
+    <string name="logout">Déconnexion</string>
+    <string name="txtViewDocenteMenuCicloInstrucciones">Sélectionnez le cycle à gérer</string>
+    <string name="txtViewDocenteMenuCicloTitulo">Cycles</string>
+    <string name="txtViewDocenteMenuMateriaTitulo">Sujets assignés</string>
+    <string name="txtViewDocenteMenuMateriaInstrucciones">Sélectionnez le sujet à gérer</string>
+    <string name="txtViewDocentePropuestaGeneralTitulo">Proposition générale []</string>
+    <string name="txtViewDocentePropuestaGeneralCodMateria">Code Matériel:</string>
+    <string name="txtViewDocentePropuestaGeneralEstado">Statut:</string>
+    <string name="txtViewDocentePropuestaGeneralPropuestasEspecificas">Propositions Spécifiques:</string>
+    <string name="btnDocentePropuestaGeneralAgregar">Ajouter</string>
+
+    <string name="mp_opcion01">Profil utilisateur</string>
+    <string name="mp_opcion02">Gérer les propositions générales</string>
+    <string name="mp_opcion03">Gérer les propositions d’événements</string>
+    <string name="mp_opcion04">Examiner les propositions</string>
+    <string name="nombre_perfil">Nom</string>
+    <string name="email_perfil">Courriel</string>
+    <string name="telefono_perfil">Téléphone</string>
+    <string name="categoria_perfil">Catégorie</string>
+
+    <string name="txtViewDocentePropuestaEspecificaInsertarTitulo">Proposition Spécifique []</string>
+    <string name="txtViewDocentePropuestaEspecificaInsertarEdificio">Bâtiment:</string>
+    <string name="txtViewDocentePropuestaEspecificaInsertarTipoGrupo">Type de groupe:</string>
+    <string name="txtViewDocentePropuestaEspecificaInsertarCupo">Quota:</string>
+    <string name="txtViewDocentePropuestaEspecificaInsertarLocal">Local:</string>
+    <string name="txtViewDocentePropuestaEspecificaInsertarNGrupo">N° Groupe:</string>
+    <string name="txtViewDocentePropuestaEspecificaInsertarCapacidad">Capacité:</string>
+    <string name="txtViewDocentePropuestaEspecificaInsertarDia">Jour:</string>
+    <string name="txtViewDocentePropuestaEspecificaInsertarHorario">Calendrier:</string>
+    <string name="txtViewDocentePropuestaEspecificaInsertarMateria">Sujet:</string>
+    <string name="btnDocentePropuestaEspecificaInsertarGuardar">sauvegarder</string>
+    <string name="txtViewDocentePropuestaEspecificaDetalladaEstado">Statut:</string>
+    <string name="txtViewDocentePropuestaEstado1">Approuvé</string>
+    <string name="txtViewDocentePropuestaEstado2">En revue</string>
+    <string name="txtViewDocentePropuestaEstado3">Refusé</string>
+    <string name="txtViewDocentePropuestaEstado4">Nécessite des changements</string>
+
+    <string name="btnSecretarioRevisar">Examen</string>
+    <string name="btnEncargadoRevisar">Examen</string>
+
+    <string name="txtViewDocentePropuestaEspecificaDetalladaDocente">Coordinateur:</string>
+    <string name="btnSecretarioAprobar">Approuver</string>
+    <string name="btnSecretarioDenegar">Déclin</string>
+    <string name="btnEncargadoAprobar">Approuver</string>
+    <string name="btnEncargadoDenegar">Déclin</string>
+
+</resources>
