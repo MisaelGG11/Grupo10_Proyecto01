@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Grupo10_Proyecto01</string>
 
+    <!--Strings para Evento Especial Activity-->
     <string name="nombre_evento_especial">Nombre del evento:</string>
     <string name="tipo_evento_especia">Tipo de evento especial:</string>
     <string name="edificio">Edificio:</string>
