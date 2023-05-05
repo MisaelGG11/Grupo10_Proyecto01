@@ -8,15 +8,15 @@
     <string name="logo_de_inicio_de_sesi_n">Logo de connexion</string>
     <string name="bienvenida">Bienvenue,</string>
     <string name="logout">Déconnexion</string>
-    <string name="txtViewDocenteMenuCicloInstrucciones">Sélectionnez le cycle à gérer</string>
-    <string name="txtViewDocenteMenuCicloTitulo">Cycles</string>
-    <string name="txtViewDocenteMenuMateriaTitulo">Sujets assignés</string>
-    <string name="txtViewDocenteMenuMateriaInstrucciones">Sélectionnez le sujet à gérer</string>
-    <string name="txtViewDocentePropuestaGeneralTitulo">Proposition générale []</string>
-    <string name="txtViewDocentePropuestaGeneralCodMateria">Code Matériel:</string>
-    <string name="txtViewDocentePropuestaGeneralEstado">Statut:</string>
-    <string name="txtViewDocentePropuestaGeneralPropuestasEspecificas">Propositions Spécifiques:</string>
-    <string name="btnDocentePropuestaGeneralAgregar">Ajouter</string>
+    <string name="txtViewCicloInstrucciones">Sélectionnez le cycle à gérer</string>
+    <string name="txtViewCicloTitulo">Cycles</string>
+    <string name="txtViewMateriaTitulo">Sujets assignés</string>
+    <string name="txtViewMateriaInstrucciones">Sélectionnez le sujet à gérer</string>
+    <string name="txtViewPropuestaTitulo">Proposition générale []</string>
+    <string name="txtViewPropuestaCodMateria">Code Matériel:</string>
+    <string name="txtViewPropuestaEstado">Statut:</string>
+    <string name="txtViewPropuestasEspecificas">Propositions Spécifiques:</string>
+    <string name="btnPropuestaAgregar">Ajouter</string>
 
     <string name="mp_opcion01">Profil utilisateur</string>
     <string name="mp_opcion02">Gérer les propositions générales</string>
@@ -28,18 +28,18 @@
     <string name="telefono_perfil">Téléphone</string>
     <string name="categoria_perfil">Catégorie</string>
 
-    <string name="txtViewDocentePropuestaEspecificaInsertarTitulo">Proposition Spécifique []</string>
-    <string name="txtViewDocentePropuestaEspecificaInsertarEdificio">Bâtiment:</string>
-    <string name="txtViewDocentePropuestaEspecificaInsertarTipoGrupo">Type de groupe:</string>
-    <string name="txtViewDocentePropuestaEspecificaInsertarCupo">Quota:</string>
-    <string name="txtViewDocentePropuestaEspecificaInsertarLocal">Local:</string>
-    <string name="txtViewDocentePropuestaEspecificaInsertarNGrupo">N° Groupe:</string>
-    <string name="txtViewDocentePropuestaEspecificaInsertarCapacidad">Capacité:</string>
-    <string name="txtViewDocentePropuestaEspecificaInsertarDia">Jour:</string>
-    <string name="txtViewDocentePropuestaEspecificaInsertarHorario">Calendrier:</string>
-    <string name="txtViewDocentePropuestaEspecificaInsertarMateria">Sujet:</string>
-    <string name="btnDocentePropuestaEspecificaInsertarGuardar">sauvegarder</string>
-    <string name="txtViewDocentePropuestaEspecificaDetalladaEstado">Statut:</string>
+    <string name="txtViewPropuestaEspecificaTitulo">Proposition Spécifique []</string>
+    <string name="txtViewPropuestaEspecificaEdificio">Bâtiment:</string>
+    <string name="txtViewPropuestaEspecificaTipoGrupo">Type de groupe:</string>
+    <string name="txtViewPropuestaEspecificaCupo">Quota:</string>
+    <string name="txtViewPropuestaEspecificaLocal">Local:</string>
+    <string name="txtViewPropuestaEspecificaNGrupo">N° Groupe:</string>
+    <string name="txtViewPropuestaEspecificaCapacidad">Capacité:</string>
+    <string name="txtViewPropuestaEspecificaDia">Jour:</string>
+    <string name="txtViewPropuestaEspecificaHorario">Calendrier:</string>
+    <string name="txtViewPropuestaEspecificaMateria">Sujet:</string>
+    <string name="btnPropuestaEspecificaGuardar">sauvegarder</string>
+    <string name="txtViewPropuestaEspecificaEstado">Statut:</string>
     <string name="txtViewDocentePropuestaEstado1">Approuvé</string>
     <string name="txtViewDocentePropuestaEstado2">En revue</string>
     <string name="txtViewDocentePropuestaEstado3">Refusé</string>
@@ -55,7 +55,7 @@
     <string name="btnSecretarioRevisar">Examen</string>
     <string name="btnEncargadoRevisar">Examen</string>
 
-    <string name="txtViewDocentePropuestaEspecificaDetalladaDocente">Coordinateur:</string>
+    <string name="txtViewPropuestaEspecificaDocente">Coordinateur:</string>
     <string name="btnSecretarioAprobar">Approuver</string>
     <string name="btnSecretarioDenegar">Déclin</string>
     <string name="btnEncargadoAprobar">Approuver</string>
@@ -69,4 +69,6 @@
     <string name="txtViewActualizarEventoEspecial">Mettre à jour un événement spécial</string>
     <string name="txtViewDetalleEventoEspecial">Voir les détails d\'un événement spécial</string>
     <string name="headerEventoEspcial">Événement spécial</string>
+    <string name="btnPropuestaEspecificaEliminar">Eliminar</string>
+    <string name="btnPropuestaEspecificaActualizar">Actualizar</string>
 </resources>

@@ -7,15 +7,15 @@
     <string name="logo_de_inicio_de_sesi_n">Login logo</string>
     <string name="bienvenida">Welcome,</string>
     <string name="logout">Logout</string>
-    <string name="txtViewDocenteMenuCicloInstrucciones">Select cycle to manage</string>
-    <string name="txtViewDocenteMenuCicloTitulo">Cycle</string>
-    <string name="txtViewDocenteMenuMateriaTitulo">Assigned Subjects</string>
-    <string name="txtViewDocenteMenuMateriaInstrucciones">Select the subject to manage</string>
-    <string name="txtViewDocentePropuestaGeneralTitulo">General Proposal []</string>
-    <string name="txtViewDocentePropuestaGeneralCodMateria">Subject Code:</string>
-    <string name="txtViewDocentePropuestaGeneralEstado">Status:</string>
-    <string name="txtViewDocentePropuestaGeneralPropuestasEspecificas">Specific Proposals:</string>
-    <string name="btnDocentePropuestaGeneralAgregar">Add</string>
+    <string name="txtViewCicloInstrucciones">Select cycle to manage</string>
+    <string name="txtViewCicloTitulo">Cycle</string>
+    <string name="txtViewMateriaTitulo">Assigned Subjects</string>
+    <string name="txtViewMateriaInstrucciones">Select the subject to manage</string>
+    <string name="txtViewPropuestaTitulo">General Proposal []</string>
+    <string name="txtViewPropuestaCodMateria">Subject Code:</string>
+    <string name="txtViewPropuestaEstado">Status:</string>
+    <string name="txtViewPropuestasEspecificas">Specific Proposals:</string>
+    <string name="btnPropuestaAgregar">Add</string>
 
     <string name="mp_opcion01">User profile</string>
     <string name="mp_opcion02">Manage general proposals</string>
@@ -28,18 +28,18 @@
     <string name="categoria_perfil">Category</string>
     <string name="menuprincipal">Main menu</string>
 
-    <string name="txtViewDocentePropuestaEspecificaInsertarTitulo">Specific Proposal []</string>
-    <string name="txtViewDocentePropuestaEspecificaInsertarEdificio">Building:</string>
-    <string name="txtViewDocentePropuestaEspecificaInsertarTipoGrupo">Group type:</string>
-    <string name="txtViewDocentePropuestaEspecificaInsertarCupo">Availability:</string>
-    <string name="txtViewDocentePropuestaEspecificaInsertarLocal">Location:</string>
-    <string name="txtViewDocentePropuestaEspecificaInsertarNGrupo">N° Group:</string>
-    <string name="txtViewDocentePropuestaEspecificaInsertarCapacidad">Capacity:</string>
-    <string name="txtViewDocentePropuestaEspecificaInsertarDia">Day:</string>
-    <string name="txtViewDocentePropuestaEspecificaInsertarHorario">Schedule:</string>
-    <string name="txtViewDocentePropuestaEspecificaInsertarMateria">Subject:</string>
-    <string name="btnDocentePropuestaEspecificaInsertarGuardar">Save</string>
-    <string name="txtViewDocentePropuestaEspecificaDetalladaEstado">Status:</string>
+    <string name="txtViewPropuestaEspecificaTitulo">Specific Proposal []</string>
+    <string name="txtViewPropuestaEspecificaEdificio">Building:</string>
+    <string name="txtViewPropuestaEspecificaTipoGrupo">Group type:</string>
+    <string name="txtViewPropuestaEspecificaCupo">Availability:</string>
+    <string name="txtViewPropuestaEspecificaLocal">Location:</string>
+    <string name="txtViewPropuestaEspecificaNGrupo">N° Group:</string>
+    <string name="txtViewPropuestaEspecificaCapacidad">Capacity:</string>
+    <string name="txtViewPropuestaEspecificaDia">Day:</string>
+    <string name="txtViewPropuestaEspecificaHorario">Schedule:</string>
+    <string name="txtViewPropuestaEspecificaMateria">Subject:</string>
+    <string name="btnPropuestaEspecificaGuardar">Save</string>
+    <string name="txtViewPropuestaEspecificaEstado">Status:</string>
     <string name="txtViewDocentePropuestaEstado1">Approved</string>
     <string name="txtViewDocentePropuestaEstado2">In Review</string>
     <string name="txtViewDocentePropuestaEstado3">Denied</string>
@@ -55,7 +55,7 @@
     <string name="btnSecretarioRevisar">Review</string>
     <string name="btnEncargadoRevisar">Review</string>
     
-    <string name="txtViewDocentePropuestaEspecificaDetalladaDocente">Coordinator:</string>
+    <string name="txtViewPropuestaEspecificaDocente">Coordinator:</string>
     <string name="btnSecretarioAprobar">Approve</string>
     <string name="btnSecretarioDenegar">Decline</string>
     <string name="btnEncargadoAprobar">Approve</string>
@@ -70,4 +70,6 @@
     <string name="txtViewDetalleEventoEspecial">See details special event</string>
 
     <string name="headerEventoEspcial">Event Special</string>
+    <string name="btnPropuestaEspecificaEliminar">Eliminar</string>
+    <string name="btnPropuestaEspecificaActualizar">Actualizar</string>
 </resources>
