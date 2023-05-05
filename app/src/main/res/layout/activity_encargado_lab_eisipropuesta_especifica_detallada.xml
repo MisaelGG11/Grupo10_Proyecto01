@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EncargadoLabEISIPropuestaEspecificaDetalladaActivity">
+
+
+    <TextView
+        android:id="@+id/textViewTituloe"
+        android:layout_width="412dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/txtViewDocentePropuestaEspecificaInsertarTitulo"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.222"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewSubTituloen1"
+        android:layout_width="125dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/txtViewDocentePropuestaEspecificaInsertarEdificio"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTituloe" />
+
+    <TextView
+        android:id="@+id/textViewSubTituloen7"
+        android:layout_width="125dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/txtViewDocentePropuestaEspecificaInsertarTipoGrupo"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSubTituloen6" />
+
+    <TextView
+        android:id="@+id/textViewSubTituloen9"
+        android:layout_width="125dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/txtViewDocentePropuestaEspecificaInsertarCupo"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSubTituloen8" />
+
+    <TextView
+        android:id="@+id/textViewSubTituloen15"
+        android:layout_width="125dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/txtViewDocentePropuestaEspecificaDetalladaDocente"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSubTituloen9" />
+
+    <TextView
+        android:id="@+id/textViewSubTituloen10"
+        android:layout_width="125dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="70dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:text="@string/txtViewDocentePropuestaEspecificaDetalladaEstado"
+        android:textSize="20sp"
+        android:background="#b4ccb9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSubTituloen9" />
+
+    <TextView
+        android:id="@+id/textViewSubTituloen11"
+        android:layout_width="238dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="70dp"
+        android:background="#b4ccb9"
+        android:text="[]"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.00"
+        app:layout_constraintStart_toEndOf="@+id/textViewSubTituloen10"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerEnCupo" />
+
+    <TextView
+        android:id="@+id/textViewSubTituloen2"
+        android:layout_width="125dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/txtViewDocentePropuestaEspecificaInsertarLocal"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSubTituloen1" />
+
+    <TextView
+        android:id="@+id/textViewSubTituloen8"
+        android:layout_width="125dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/txtViewDocentePropuestaEspecificaInsertarNGrupo"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSubTituloen7" />
+
+    <TextView
+        android:id="@+id/textViewSubTituloen3"
+        android:layout_width="125dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/txtViewDocentePropuestaEspecificaInsertarCapacidad"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSubTituloen2" />
+
+    <TextView
+        android:id="@+id/textViewSubTituloen4"
+        android:layout_width="125dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/txtViewDocentePropuestaEspecificaInsertarDia"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSubTituloen3" />
+
+    <TextView
+        android:id="@+id/textViewSubTituloen5"
+        android:layout_width="125dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/txtViewDocentePropuestaEspecificaInsertarHorario"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSubTituloen4" />
+
+    <TextView
+        android:id="@+id/textViewSubTituloen6"
+        android:layout_width="125dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/txtViewDocentePropuestaEspecificaInsertarMateria"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSubTituloen5" />
+
+    <Spinner
+        android:id="@+id/spinnerEnEdificio"
+        android:layout_width="210dp"
+        android:layout_height="30dp"
+        android:textSize="20sp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toEndOf="@+id/textViewSubTituloen1"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTituloe" />
+
+    <Spinner
+        android:id="@+id/spinnerEnLocal"
+        android:layout_width="210dp"
+        android:layout_height="30dp"
+        android:textSize="20sp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintStart_toEndOf="@+id/textViewSubTituloen2"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerEnEdificio" />
+
+    <Spinner
+        android:id="@+id/spinnerEnCapacidad"
+        android:layout_width="210dp"
+        android:layout_height="30dp"
+        android:textSize="20sp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewSubTituloen3"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerEnLocal" />
+
+    <Spinner
+        android:id="@+id/spinnerEnHorario"
+        android:layout_width="210dp"
+        android:layout_height="30dp"
+        android:textSize="20sp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewSubTituloen5"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerEnDia" />
+
+    <Spinner
+        android:id="@+id/spinnerEnMateria"
+        android:layout_width="210dp"
+        android:layout_height="30dp"
+        android:textSize="20sp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewSubTituloen6"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerEnHorario" />
+
+    <Spinner
+        android:id="@+id/spinnerEnTipoGrupo"
+        android:layout_width="210dp"
+        android:layout_height="30dp"
+        android:textSize="20sp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewSubTituloen7"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerEnMateria" />
+
+    <Spinner
+        android:id="@+id/spinnerEnNGrupo"
+        android:layout_width="210dp"
+        android:layout_height="30dp"
+        android:textSize="20sp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewSubTituloen8"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerEnTipoGrupo" />
+
+    <Spinner
+        android:id="@+id/spinnerEnCupo"
+        android:layout_width="210dp"
+        android:layout_height="30dp"
+        android:textSize="20sp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewSubTituloen9"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerEnNGrupo"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Spinner
+        android:id="@+id/spinnerEnDia"
+        android:layout_width="210dp"
+        android:layout_height="30dp"
+        android:textSize="20sp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewSubTituloen4"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerEnCapacidad" />
+
+    <Spinner
+        android:id="@+id/spinnerEncoordinador"
+        android:layout_width="210dp"
+        android:layout_height="30dp"
+        android:textSize="20sp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewSubTituloen15"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerEnCupo" />
+
+    <Button
+            android:id="@+id/btndenegar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:layout_marginEnd="48dp"
+            android:text="@string/btnEncargadoDenegar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewSubTituloen11"
+            />
+
+        <Button
+            android:id="@+id/btnAprobar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnEncargadoAprobar"
+            android:layout_marginStart="48dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewSubTituloen10"
+            app:layout_constraintVertical_bias="0.482" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

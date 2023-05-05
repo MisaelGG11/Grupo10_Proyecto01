@@ -63,6 +63,30 @@
             android:name=".DocenteMenuCicloActivity"
             android:exported="false" />
         <activity
+            android:name=".ExpandableListDataPump"
+            android:exported="false" />
+        <activity
+            android:name=".CustomExpandableListAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".EncargadoLabEISIPropuestaEspecificaDetalladaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EncargadoLabEISIPropuestasEspecificasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EncargadoLabEISILocalidadMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SecretarioEscuelaPropuestaEspecificaDetalladaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SecretarioEscuelaPropuestasEspecificasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SecretarioEscuelaEdificioMenuActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/login">
