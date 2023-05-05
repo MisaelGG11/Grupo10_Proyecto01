@@ -17,7 +17,7 @@ public class EventoEspecialInsertarActivity extends AppCompatActivity {
 
     public void initSpinner(){
         Spinner spinnerHorario = (Spinner) findViewById(R.id.spinnerHorarioEventoEspecial);
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,R.array.horarios, android.R.layout.simple_spinner_item);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,R.array.spinnerHorariosEventoEspecial, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinnerHorario.setAdapter(adapter);
     }

@@ -26,8 +26,8 @@ public class MenuPrincipalActivity extends AppCompatActivity {
     String rol = "Secretario";
     //Context context;
     String user = "Fabio Flores";
-    String[] menu = new String[4];
-    String[] activities={"UsuarioPerfilActivity","DocenteMenuCicloActivity","UsuarioPerfilActivity","UsuarioPerfilActivity"};
+    String[] menu = new String[5];
+    String[] activities={"UsuarioPerfilActivity","DocenteMenuCicloActivity","UsuarioPerfilActivity","UsuarioPerfilActivity","EventoEspecialMenuActivity"};
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -39,6 +39,7 @@ public class MenuPrincipalActivity extends AppCompatActivity {
         menu[1] = getResources().getString(R.string.mp_opcion02);
         menu[2] = getResources().getString(R.string.mp_opcion03);
         menu[3] = getResources().getString(R.string.mp_opcion04);
+        menu[4] = getResources().getString(R.string.mp_opcion05);
 
         lvAdpter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, menu);
         menuPrincipal = findViewById(R.id.lvMenuPrincipal);

@@ -7,15 +7,22 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 public class EventoEspecialMenuActivity extends ListActivity {
 
-    String[] menu = {"Crear evento especial", "Actualizar evento especial", "Ver detalle evento especial"};
+    //String[] menu = {"Crear evento especial","Actualizar evento especial","Detalle evento especial"};
+    String[] menu = new String[3];
     String[] activities = {"EventoEspecialInsertarActivity","EventoEspecialActualizarActivity","EventoEspecialDetalleActivity"};
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setListAdapter(new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,menu));
+
+        //setContentView(R.layout.activity_evento_especial_menu);
+        menu[0] = getResources().getString(R.string.txtViewCrearEventoEspecial);
+        menu[1] = getResources().getString(R.string.txtViewActualizarEventoEspecial);
+        menu[2] = getResources().getString(R.string.txtViewDetalleEventoEspecial);
+        setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,menu));
     }
 
     @Override
