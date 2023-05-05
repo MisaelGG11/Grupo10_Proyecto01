@@ -7,82 +7,61 @@
     tools:context=".PropuestaGeneralDetalladaActivity">
 
     <TextView
-        android:id="@+id/textViewTitulo"
-        android:layout_width="285dp"
-        android:layout_height="40dp"
-        android:text="@string/txtViewPropuestaTitulo"
-        android:textSize="26sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.246"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.07" />
-
-    <TextView
         android:id="@+id/textViewSubTitulo1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
         android:text="@string/txtViewPropuestaCodMateria"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.103"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewTitulo"
-        app:layout_constraintVertical_bias="0.055" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textViewCodigoMateria"
-        android:layout_width="224dp"
-        android:layout_height="27dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="[]"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.135"
+        app:layout_constraintHorizontal_bias="0.118"
         app:layout_constraintStart_toEndOf="@+id/textViewSubTitulo1"
-        app:layout_constraintTop_toBottomOf="@+id/textViewTitulo"
-        app:layout_constraintVertical_bias="0.055" />
+        app:layout_constraintTop_toTopOf="@+id/textViewSubTitulo1" />
 
     <TextView
         android:id="@+id/textViewEstadoPropuestas"
-        android:layout_width="224dp"
-        android:layout_height="27dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxHeight="200dp"
         android:text="[]"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.135"
-        app:layout_constraintStart_toEndOf="@+id/textViewSubTitulo1"
-        app:layout_constraintTop_toBottomOf="@+id/textViewTitulo"
-        app:layout_constraintVertical_bias="0.139" />
+        app:layout_constraintHorizontal_bias="0.337"
+        app:layout_constraintStart_toEndOf="@+id/textViewSubTitulo2"
+        app:layout_constraintTop_toTopOf="@+id/textViewSubTitulo2" />
 
     <TextView
         android:id="@+id/textViewSubTitulo2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="40dp"
         android:text="@string/txtViewPropuestaEstado"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.089"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewSubTitulo1"
-        app:layout_constraintVertical_bias="0.045" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewSubTitulo1" />
 
     <TextView
         android:id="@+id/textViewSubTitulo3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
         android:text="@string/txtViewPropuestasEspecificas"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintHorizontal_bias="0.166"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewSubTitulo2"
-        app:layout_constraintVertical_bias="0.103" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewSubTitulo2" />
 
     <ListView
         android:id="@+id/listViewPropuestasEspecificas"
@@ -91,10 +70,9 @@
         android:layout_marginTop="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewSubTitulo3"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.138" />
 
     <Button
         android:id="@+id/btnAgregarPropuestaEspecifica"

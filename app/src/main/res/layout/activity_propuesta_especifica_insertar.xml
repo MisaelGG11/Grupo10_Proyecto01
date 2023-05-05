@@ -7,27 +7,15 @@
     tools:context=".PropuestaEspecificaInsertarActivity">
 
     <TextView
-        android:id="@+id/textViewTitulo"
-        android:layout_width="285dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="36dp"
-        android:text="@string/txtViewPropuestaEspecificaTitulo"
-        android:textSize="26sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.222"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
         android:id="@+id/textViewSubTitulo1"
         android:layout_width="105dp"
         android:layout_height="30dp"
         android:layout_marginStart="28dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="16dp"
         android:text="@string/txtViewPropuestaEspecificaEdificio"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewTitulo" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textViewSubTitulo7"
@@ -50,7 +38,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewSubTitulo8"
-        app:layout_constraintVertical_bias="0.215" />
+        app:layout_constraintVertical_bias="0.127" />
 
     <TextView
         android:id="@+id/textViewSubTitulo2"
@@ -122,12 +110,12 @@
         android:id="@+id/spinnerEdificio"
         android:layout_width="230dp"
         android:layout_height="30dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="4dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintHorizontal_bias="0.477"
         app:layout_constraintStart_toEndOf="@+id/textViewSubTitulo1"
-        app:layout_constraintTop_toBottomOf="@+id/textViewTitulo" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
         android:id="@+id/spinnerLocal"

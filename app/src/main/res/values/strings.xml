@@ -92,7 +92,7 @@
 
     <!--Strings para DocentePropuestaGeneral Activity-->
     <string name="txtViewPropuestaTitulo">Propuesta General []</string>
-    <string name="txtViewPropuestaCodMateria">Código de Materia:</string>
+    <string name="txtViewPropuestaCodMateria">Cód de Materia:</string>
     <string name="txtViewPropuestaEstado">Estado:</string>
     <string name="txtViewPropuestasEspecificas">Propuestas Específicas:</string>
     <string name="btnPropuestaAgregar">Agregar</string>

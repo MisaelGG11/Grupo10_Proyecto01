@@ -49,19 +49,24 @@
             android:label="@string/menuprincipal" />
         <activity
             android:name=".PropuestaEspecificaInsertarActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="@string/txtViewPropuestaEspecificaTitulo"/>
         <activity
             android:name=".PropuestaEspecificaDetalladaActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="@string/txtViewPropuestaEspecificaTitulo"/>
         <activity
             android:name=".PropuestaGeneralDetalladaActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="@string/txtViewPropuestaTitulo"/>
         <activity
             android:name=".DocenteMenuMateriaActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="@string/txtViewMateriaTitulo"/>
         <activity
             android:name=".DocenteMenuCicloActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="@string/txtViewCicloTitulo"/>
         <activity
             android:name=".ExpandableListDataPump"
             android:exported="false" />
