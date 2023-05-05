@@ -12,6 +12,57 @@
         android:theme="@style/Theme.Grupo10_Proyecto01"
         tools:targetApi="31">
         <activity
+            android:name=".Tipo_evento"
+            android:exported="false" />
+        <activity
+            android:name=".Local_Administrado"
+            android:exported="false" />
+        <activity
+            android:name=".Evento_Especial"
+            android:exported="false" />
+        <activity
+            android:name=".Localidad"
+            android:exported="false" />
+        <activity
+            android:name=".EventoEspecialDetalleActivity"
+            android:label="@string/headerEventoEspcial"
+            android:exported="false" />
+        <activity
+            android:name=".EventoEspecialActualizarActivity"
+            android:label="@string/headerEventoEspcial"
+            android:exported="false" />
+        <activity
+            android:name=".EventoEspecialInsertarActivity"
+            android:label="@string/headerEventoEspcial"
+            android:exported="false" />
+        <activity
+            android:name=".EventoEspecialMenuActivity"
+            android:label="@string/headerEventoEspcial"
+            android:exported="false" />
+        <activity
+            android:name=".UsuarioPerfilActivity"
+            android:exported="false"
+            android:label="@string/mp_opcion01" />
+        <activity
+            android:name=".MenuPrincipalActivity"
+            android:exported="false"
+            android:label="@string/menuprincipal" />
+        <activity
+            android:name=".PropuestaEspecificaInsertarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PropuestaEspecificaDetalladaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PropuestaGeneralDetalladaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DocenteMenuMateriaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DocenteMenuCicloActivity"
+            android:exported="false" />
+        <activity
             android:name=".ExpandableListDataPump"
             android:exported="false" />
         <activity
@@ -36,26 +87,9 @@
             android:name=".SecretarioEscuelaEdificioMenuActivity"
             android:exported="false" />
         <activity
-            android:name=".PropuestaEspecificaInsertarActivity"
-            android:exported="false" />
-        <activity
-            android:name=".PropuestaEspecificaActualizarActivity"
-            android:exported="false" />
-        <activity
-            android:name=".PropuestaEspecificaDetalladaActivity"
-            android:exported="false" />
-        <activity
-            android:name=".PropuestaGeneralDetalladaActivity"
-            android:exported="false" />
-        <activity
-            android:name=".DocenteMenuMateriaActivity"
-            android:exported="false" />
-        <activity
-            android:name=".DocenteMenuCicloActivity"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:label="@string/login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

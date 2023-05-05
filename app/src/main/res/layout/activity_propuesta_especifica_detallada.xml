@@ -6,4 +6,256 @@
     android:layout_height="match_parent"
     tools:context=".PropuestaEspecificaDetalladaActivity">
 
+    <TextView
+        android:id="@+id/textViewTitulo"
+        android:layout_width="285dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/txtViewPropuestaEspecificaTitulo"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.222"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewSubTitulo1"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/txtViewPropuestaEspecificaEdificio"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitulo" />
+
+    <TextView
+        android:id="@+id/textViewSubTitulo7"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/txtViewPropuestaEspecificaTipoGrupo"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSubTitulo6" />
+
+    <TextView
+        android:id="@+id/textViewSubTitulo9"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:text="@string/txtViewPropuestaEspecificaCupo"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSubTitulo8"
+        app:layout_constraintVertical_bias="0.109" />
+
+    <TextView
+        android:id="@+id/textViewSubTitulo10"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/txtViewPropuestaEspecificaEstado"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSubTitulo9" />
+
+    <TextView
+        android:id="@+id/textViewSubTitulo11"
+        android:layout_width="230dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="24dp"
+        android:text="[]"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toEndOf="@+id/textViewSubTitulo10"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerCupo" />
+
+    <TextView
+        android:id="@+id/textViewSubTitulo2"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/txtViewPropuestaEspecificaLocal"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSubTitulo1" />
+
+    <TextView
+        android:id="@+id/textViewSubTitulo8"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/txtViewPropuestaEspecificaNGrupo"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSubTitulo7" />
+
+    <TextView
+        android:id="@+id/textViewSubTitulo3"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/txtViewPropuestaEspecificaCapacidad"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSubTitulo2" />
+
+    <TextView
+        android:id="@+id/textViewSubTitulo4"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/txtViewPropuestaEspecificaDia"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSubTitulo3" />
+
+    <TextView
+        android:id="@+id/textViewSubTitulo5"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/txtViewPropuestaEspecificaHorario"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSubTitulo4" />
+
+    <TextView
+        android:id="@+id/textViewSubTitulo6"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/txtViewPropuestaEspecificaMateria"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSubTitulo5" />
+
+    <Spinner
+        android:id="@+id/spinnerEdificio"
+        android:layout_width="230dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toEndOf="@+id/textViewSubTitulo1"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitulo" />
+
+    <Spinner
+        android:id="@+id/spinnerLocal"
+        android:layout_width="230dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintStart_toEndOf="@+id/textViewSubTitulo2"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerEdificio" />
+
+    <Spinner
+        android:id="@+id/spinnerCapacidad"
+        android:layout_width="230dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewSubTitulo3"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerLocal" />
+
+    <Spinner
+        android:id="@+id/spinnerHorario"
+        android:layout_width="230dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewSubTitulo5"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerDia" />
+
+    <Spinner
+        android:id="@+id/spinnerMateria"
+        android:layout_width="230dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewSubTitulo6"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerHorario" />
+
+    <Spinner
+        android:id="@+id/spinnerTipoGrupo"
+        android:layout_width="230dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewSubTitulo7"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerMateria" />
+
+    <Spinner
+        android:id="@+id/spinnerNGrupo"
+        android:layout_width="230dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewSubTitulo8"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerTipoGrupo" />
+
+    <Spinner
+        android:id="@+id/spinnerCupo"
+        android:layout_width="230dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewSubTitulo9"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerNGrupo"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Spinner
+        android:id="@+id/spinnerDia"
+        android:layout_width="230dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewSubTitulo4"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerCapacidad" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="48dp"
+        android:text="@string/btnPropuestaEspecificaEliminar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSubTitulo11"
+        app:layout_constraintVertical_bias="0.393" />
+
+    <Button
+        android:id="@+id/btnCancelarActualizarEventoEspecial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnPropuestaEspecificaActualizar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnGuardar"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSubTitulo10"
+        app:layout_constraintVertical_bias="0.386" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

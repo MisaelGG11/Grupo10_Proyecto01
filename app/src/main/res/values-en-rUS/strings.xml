@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Grupo10_Proyecto01</string>
+    <string name="user">User</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="logo_de_inicio_de_sesi_n">Login logo</string>
+    <string name="bienvenida">Welcome,</string>
+    <string name="logout">Logout</string>
+    <string name="txtViewCicloInstrucciones">Select cycle to manage</string>
+    <string name="txtViewCicloTitulo">Cycle</string>
+    <string name="txtViewMateriaTitulo">Assigned Subjects</string>
+    <string name="txtViewMateriaInstrucciones">Select the subject to manage</string>
+    <string name="txtViewPropuestaTitulo">General Proposal []</string>
+    <string name="txtViewPropuestaCodMateria">Subject Code:</string>
+    <string name="txtViewPropuestaEstado">Status:</string>
+    <string name="txtViewPropuestasEspecificas">Specific Proposals:</string>
+    <string name="btnPropuestaAgregar">Add</string>
+
+    <string name="mp_opcion01">User profile</string>
+    <string name="mp_opcion02">Manage general proposals</string>
+    <string name="mp_opcion03">Manage event proposals</string>
+    <string name="mp_opcion04">Review proposals</string>
+    <string name="mp_opcion05">Manage special event</string>
+    <string name="nombre_perfil">Name</string>
+    <string name="email_perfil">Email</string>
+    <string name="telefono_perfil">Telephone</string>
+    <string name="categoria_perfil">Category</string>
+    <string name="menuprincipal">Main menu</string>
+
+    <string name="txtViewPropuestaEspecificaTitulo">Specific Proposal []</string>
+    <string name="txtViewPropuestaEspecificaEdificio">Building:</string>
+    <string name="txtViewPropuestaEspecificaTipoGrupo">Group type:</string>
+    <string name="txtViewPropuestaEspecificaCupo">Availability:</string>
+    <string name="txtViewPropuestaEspecificaLocal">Location:</string>
+    <string name="txtViewPropuestaEspecificaNGrupo">N° Group:</string>
+    <string name="txtViewPropuestaEspecificaCapacidad">Capacity:</string>
+    <string name="txtViewPropuestaEspecificaDia">Day:</string>
+    <string name="txtViewPropuestaEspecificaHorario">Schedule:</string>
+    <string name="txtViewPropuestaEspecificaMateria">Subject:</string>
+    <string name="btnPropuestaEspecificaGuardar">Save</string>
+    <string name="txtViewPropuestaEspecificaEstado">Status:</string>
+    <string name="txtViewDocentePropuestaEstado1">Approved</string>
+    <string name="txtViewDocentePropuestaEstado2">In Review</string>
+    <string name="txtViewDocentePropuestaEstado3">Denied</string>
+    <string name="txtViewDocentePropuestaEstado4">Requires changes</string>
+    <string name="txtViewSeleccionarHorarioEventoEspecial">Select schedules:</string>
+    <string name="txtViewFechaEventoEspecial">Date:</string>
+    <string name="txtViewLocalidadEventoEspecial">Location:</string>
+    <string name="txtViewNombreEventoEspecial">Event Name:</string>
+    <string name="txtViewTipoEventoEspecial">Type special event:</string>
+    <string name="txtViewEdificioEventoEspecial">Building:</string>
+
+
+    <string name="btnSecretarioRevisar">Review</string>
+    <string name="btnEncargadoRevisar">Review</string>
+    
+    <string name="txtViewPropuestaEspecificaDocente">Coordinator:</string>
+    <string name="btnSecretarioAprobar">Approve</string>
+    <string name="btnSecretarioDenegar">Decline</string>
+    <string name="btnEncargadoAprobar">Approve</string>
+    <string name="btnEncargadoDenegar">Decline</string>
+    <string name="btnVolverEventoEspecial">Back</string>
+    <string name="btnActualizarEventoEspecial">Update</string>
+    <string name="btnCancelarEventoEspecial">Cancel</string>
+    <string name="btnCrearEventoEspecial">Create</string>
+
+    <string name="txtViewCrearEventoEspecial">Create special event</string>
+    <string name="txtViewActualizarEventoEspecial">Update special event</string>
+    <string name="txtViewDetalleEventoEspecial">See details special event</string>
+
+    <string name="headerEventoEspcial">Event Special</string>
+    <string name="btnPropuestaEspecificaEliminar">Eliminar</string>
+    <string name="btnPropuestaEspecificaActualizar">Actualizar</string>
+</resources>

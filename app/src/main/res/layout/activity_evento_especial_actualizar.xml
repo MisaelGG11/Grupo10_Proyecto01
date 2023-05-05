@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EventoEspecialActualizarActivity">
+    <EditText
+        android:id="@+id/editTextNombreEventoEspecial"
+        android:layout_width="271dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/txtViewNombreEventoEspecial"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextFechaEventoEspecial"
+        android:layout_width="267dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/txtViewFechaEventoEspecial"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextLocalidadEventoEspecial" />
+
+    <Spinner
+        android:id="@+id/spinnerHorarioActualizarEventoEspecial"
+        android:layout_width="179dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextFechaEventoEspecial" />
+
+    <EditText
+        android:id="@+id/editTextTipoEventoEspecial"
+        android:layout_width="270dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/txtViewTipoEventoEspecial"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.368"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNombreEventoEspecial" />
+
+    <Button
+        android:id="@+id/btnActualizarEventoEspecial"
+        android:layout_width="130dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="46dp"
+        android:backgroundTint="@color/purple_700"
+        android:text="@string/btnActualizarEventoEspecial"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnCancelarActualizarEventoEspecial"
+        app:layout_constraintHorizontal_bias="0.626"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerHorarioActualizarEventoEspecial"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editTextLocalidadEventoEspecial"
+        android:layout_width="266dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/txtViewLocalidadEventoEspecial"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.337"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEdificioEventoEspecial" />
+
+    <TextView
+        android:id="@+id/textViewSeleccionarHorarioEventoEspecial"
+        android:layout_width="127dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/txtViewSeleccionarHorarioEventoEspecial"
+        app:layout_constraintBottom_toTopOf="@+id/btnActualizarEventoEspecial"
+        app:layout_constraintEnd_toStartOf="@+id/spinnerHorarioActualizarEventoEspecial"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextFechaEventoEspecial"
+        app:layout_constraintVertical_bias="0.078" />
+
+    <EditText
+        android:id="@+id/editTextEdificioEventoEspecial"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/txtViewEdificioEventoEspecial"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.347"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTipoEventoEspecial" />
+
+    <Button
+        android:id="@+id/btnCancelarActualizarEventoEspecial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="80dp"
+        android:text="@string/btnCancelarEventoEspecial"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerHorarioActualizarEventoEspecial" />
+</androidx.constraintlayout.widget.ConstraintLayout>
