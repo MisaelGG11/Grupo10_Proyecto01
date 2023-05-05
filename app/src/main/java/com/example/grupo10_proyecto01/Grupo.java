@@ -6,12 +6,14 @@ public class Grupo {
     private int num_grupo;
     private String tipo_grupo;
     private int cupo;
+    private OfertaAcademica ofertaAcademica;
 
-    public Grupo(int id_grupo, int num_grupo, String tipo_grupo, int cupo) {
+    public Grupo(int id_grupo, int num_grupo, String tipo_grupo, int cupo, OfertaAcademica ofertaAcademica) {
         this.id_grupo = id_grupo;
         this.num_grupo = num_grupo;
         this.tipo_grupo = tipo_grupo;
         this.cupo = cupo;
+        this.ofertaAcademica = ofertaAcademica;
     }
 
     public int getId_grupo() {
@@ -44,5 +46,13 @@ public class Grupo {
 
     public void setCupo(int cupo) {
         this.cupo = cupo;
+    }
+
+    public OfertaAcademica getOfertaAcademica() {
+        return ofertaAcademica;
+    }
+
+    public void setOfertaAcademica(OfertaAcademica ofertaAcademica) {
+        this.ofertaAcademica = ofertaAcademica;
     }
 }
