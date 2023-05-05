@@ -1,5 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- activity_gestion_usuario_menu -->
+    <string name="gestion_usuario">User Management</string>
+    <string name="crear_usuario">Create User</string>
+    <string name="actualizar_informacion">Update Information</string>
+    <string name="detalles_de_usuario">User Details</string>
+
+    <!-- activity_usuario_insertar -->
+    <string name="crear_usuario_1">Create user</string>
+    <string name="inserte_nombre_usuario">Add Username</string>
+    <string name="inserte_la_contraseña">Add Password</string>
+    <string name="inserte_de_nuevo_contraseña">Add Password again</string>
+    <string name="seleccione_tipo_cuenta">Select the accpunt´s type</string>
+    <string name="registrar_usuario_1">Sign-in user</string>
+
+    <!-- Gestión Usuario Listado Actualizar Activity -->
+    <string name="actualizar_info_usuario">Update user´s information</string>
+    <string name="seleccione_usuario">Select the username</string>
+    <string name="actualizar_info">Update Information</string>
+
+    <!-- Gestión Usuario Listado Actualizar Activity -->
+    <string name="consultar_info_usuario">Watch user´s information</string>
+    <string name="consutar_info">Watch information</string>
+
+    <!-- activity_usuario_insertar -->
+    <string name="actualizar_info_de">Update the information of</string>
+    <string name="nombre">First-Name</string>
+    <string name="apellido">Last-Name</string>
+    <string name="email">e-mail</string>
+    <string name="telefono">Telephone Number</string>
+    <string name="nip">NIP</string>
+    <string name="seleccione_su_categoria_docente">Choose the professor´s category:</string>
+    <string name="guardar">Save</string>
+    <string name="cancelar">Cancel</string>
+
+    <!-- activity_usuario_insertar -->
+    <string name="consultar_info_de">Watching the information of</string>
+    <string name="categoria">Category</string>
+
     <string name="app_name">Grupo10_Proyecto01</string>
     <string name="user">User</string>
     <string name="password">Password</string>

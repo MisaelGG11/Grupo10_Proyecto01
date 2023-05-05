@@ -1,5 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- activity_gestion_usuario_menu -->
+    <string name="gestion_usuario">Gestion des utilisateurs</string>
+    <string name="crear_usuario">Créer un utilisateur</string>
+    <string name="actualizar_informacion">Mettre à jour les informations</string>
+    <string name="detalles_de_usuario">détails de l\'utilisateur</string>
+
+    <!-- activity_usuario_insertar -->
+    <string name="crear_usuario_1">Créer un utilisateur</string>
+    <string name="inserte_nombre_usuario">Insérer le nom d\'utilisateur</string>
+    <string name="inserte_la_contraseña">insérer le mot de passe</string>
+    <string name="inserte_de_nuevo_contraseña">Entrez à nouveau le mot de passe</string>
+    <string name="seleccione_tipo_cuenta">Sélectionnez le type de compte</string>
+    <string name="registrar_usuario_1">enregistrer l\'utilisateur</string>
+
+    <!-- Gestión Usuario Listado Actualizar Activity -->
+    <string name="actualizar_info_usuario">Mettre à jour les informations de l\'utilisateur</string>
+    <string name="seleccione_usuario">sélectionner l\'utilisateur</string>
+    <string name="actualizar_info">Mettre à jour les informations</string>
+
+    <!-- Gestión Usuario Listado Actualizar Activity -->
+    <string name="consultar_info_usuario">Vérifier les informations de l\'utilisateur</string>
+    <string name="consutar_info">Consulter les informations</string>
+
+    <!-- activity_usuario_insertar -->
+    <string name="actualizar_info_de">Mettre à jour les informations de</string>
+    <string name="nombre">nom</string>
+    <string name="apellido">Le nom</string>
+    <string name="email">e-mail</string>
+    <string name="telefono">Téléphone</string>
+    <string name="nip">NIP</string>
+    <string name="seleccione_su_categoria_docente">Sélectionnez votre catégorie de professeur</string>
+    <string name="guardar">sauvegarder</string>
+    <string name="cancelar">Annuler</string>
+
+    <!-- activity_usuario_insertar -->
+    <string name="consultar_info_de">Consulter les informations de</string>
+    <string name="categoria">Catégorie</string>
+
     <string name="app_name">Grupo10_Proyecto01</string>
     <string name="user">Utilisateur</string>
     <string name="menuprincipal">Menu Principal</string>
