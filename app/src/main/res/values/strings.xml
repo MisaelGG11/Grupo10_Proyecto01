@@ -1,5 +1,42 @@
 <resources>
     <string name="app_name">Grupo10_Proyecto01</string>
+    <!-- activity_gestion_usuario_menu -->
+    <string name="gestion_usuario">Gestión de usuarios</string>
+    <string name="crear_usuario">Crear usuario</string>
+    <string name="actualizar_informacion">Actualizar información</string>
+    <string name="detalles_de_usuario">Detalles de usuario</string>
+
+    <!-- activity_usuario_insertar -->
+    <string name="crear_usuario_1">Crear usuario</string>
+    <string name="inserte_nombre_usuario">Inserte el nombre de usuario</string>
+    <string name="inserte_la_contraseña">Inserte la contraseña</string>
+    <string name="inserte_de_nuevo_contraseña">Inserte de nuevo la contraseña</string>
+    <string name="seleccione_tipo_cuenta">Seleccione el tipo de cuenta</string>
+    <string name="registrar_usuario_1">Registrar usuario</string>
+
+    <!-- Gestión Usuario Listado Actualizar Activity -->
+    <string name="actualizar_info_usuario">Actualizar información del usuario</string>
+    <string name="seleccione_usuario">Seleccione al usuario</string>
+    <string name="actualizar_info">Actualizar información</string>
+
+    <!-- Gestión Usuario Listado Actualizar Activity -->
+    <string name="consultar_info_usuario">Consultar información de los usuarios</string>
+    <string name="consutar_info">Consultar información</string>
+
+    <!-- activity_usuario_insertar -->
+    <string name="actualizar_info_de">Actualizar información de</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="email">e-mail</string>
+    <string name="telefono">Teléfono</string>
+    <string name="nip">NIP</string>
+    <string name="seleccione_su_categoria_docente">Seleccione su categoría de docente</string>
+    <string name="guardar">Guardar</string>
+    <string name="cancelar">Cancelar</string>
+
+    <!-- activity_usuario_insertar -->
+    <string name="consultar_info_de">Consultando la información de</string>
+    <string name="categoria">Categoria</string>
 
     <!--Strings para Evento Especial Activity-->
     <string name="txtViewNombreEventoEspecial">Nombre del evento:</string>
