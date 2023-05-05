@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".EncargadoLabEISIPropuestasEspecificasActivity">
     <TextView
-        android:id="@+id/textViewTituloep"
+        android:id="@+id/textViewTituloenc"
         android:layout_width="412dp"
         android:layout_height="37dp"
         android:layout_marginTop="36dp"
@@ -21,35 +21,40 @@
         app:layout_constraintVertical_bias="0.018" />
 
     <TextView
-        android:id="@+id/textViewEstadoPropuestaep"
-        android:layout_width="224dp"
-        android:layout_height="27dp"
+        android:id="@+id/textViewEstadoPropuestas"
+        android:layout_width="138dp"
+        android:layout_height="30dp"
         android:layout_marginEnd="28dp"
+        android:background="#b4ccb9"
         android:text="[]"
+        android:textAlignment="center"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.135"
+        app:layout_constraintHorizontal_bias="0.0"
 
-        app:layout_constraintTop_toBottomOf="@+id/textViewTituloep"
-        app:layout_constraintVertical_bias="0.063" />
+        app:layout_constraintStart_toEndOf="@+id/textViewSubTituloenc1"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTituloenc"
+        app:layout_constraintVertical_bias="0.058" />
 
     <TextView
-        android:id="@+id/textViewSubTituloep1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/textViewSubTituloenc1"
+        android:layout_width="111dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="88dp"
         android:layout_marginBottom="580dp"
+        android:background="#b4ccb9"
         android:text="@string/txtViewDocentePropuestaEspecificaInsertarLocal"
+        android:textAlignment="center"
+
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.188"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewTituloep"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTituloenc"
         app:layout_constraintVertical_bias="1.0" />
 
     <TextView
-        android:id="@+id/textViewSubTituloep2"
+        android:id="@+id/textViewSubTituloenc2"
         android:layout_width="412dp"
         android:layout_height="37dp"
         android:layout_marginTop="36dp"
@@ -61,7 +66,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewSubTituloep1"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSubTituloenc1"
         app:layout_constraintVertical_bias="0.103" />
 
     <ListView
@@ -69,15 +74,17 @@
         android:layout_width="348dp"
         android:layout_height="380dp"
         android:layout_marginBottom="112dp"
+        android:background="#eae2cf"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewSubTituloep2"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSubTituloenc2"
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/btnRevisarPropuestaEspecifica"
+        android:id="@+id/btnRevisarPropuestaEspecificaen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btnEncargadoRevisar"

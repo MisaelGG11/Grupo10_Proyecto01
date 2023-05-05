@@ -33,9 +33,6 @@
             android:name=".SecretarioEscuelaPropuestasEspecificasActivity"
             android:exported="false" />
         <activity
-            android:name=".SecretarioEscuelaLocalidadMenuActivity"
-            android:exported="false" />
-        <activity
             android:name=".SecretarioEscuelaEdificioMenuActivity"
             android:exported="false" />
         <activity

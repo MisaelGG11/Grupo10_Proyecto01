@@ -10,7 +10,7 @@ import android.widget.ListView;
 
 public class EncargadoLabEISILocalidadMenuActivity extends ListActivity{
     String[] menu={"LCOMP01", "LCOMP02", "LCOMP03","LCOMP04", "LCOMP05"};
-    //String[] activities={"SecretarioEscuelaLocalidadMenuActivity"};
+    //String[] activities={"EncargadoLabEISIPropuestasEspecificasActivity"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
