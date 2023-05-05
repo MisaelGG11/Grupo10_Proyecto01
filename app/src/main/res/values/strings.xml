@@ -2,16 +2,26 @@
     <string name="app_name">Grupo10_Proyecto01</string>
 
     <!--Strings para Evento Especial Activity-->
-    <string name="nombre_evento_especial">Nombre del evento:</string>
-    <string name="tipo_evento_especia">Tipo de evento especial:</string>
-    <string name="edificio">Edificio:</string>
-    <string name="localidad">Localidad:</string>
-    <string name="fecha">Fecha:</string>
-    <pstring name="seleccione_horario">Seleccione horario:</pstring>
-    <string name="crear">Crear</string>
-    <string name="cancelar">Cancelar</string>
-    <string name="actualizar">Actualizar</string>
-    <string name="volver">Volver</string>
+    <string name="txtViewNombreEventoEspecial">Nombre del evento:</string>
+    <string name="txtViewTipoEventoEspecial">Tipo de evento especial:</string>
+    <string name="txtViewEdificioEventoEspecial">Edificio:</string>
+    <string name="txtViewLocalidadEventoEspecial">Localidad:</string>
+    <string name="txtViewFechaEventoEspecial">Fecha:</string>
+    <string name="txtViewSeleccionarHorarioEventoEspecial">Seleccione horario:</string>
+    <string name="btnCrearEventoEspecial">Crear</string>
+    <string name="btnCancelarEventoEspecial">Cancelar</string>
+    <string name="btnActualizarEventoEspecial">Actualizar</string>
+    <string name="btnVolverEventoEspecial">Volver</string>
+    <string-array name="spinnerHorariosEventoEspecial">
+        <item>Horario 1</item>
+        <item>Horario 2</item>
+        <item>Horario 3</item>
+        <item>Horario 4</item>
+        <item>Horario 5</item>
+        <item>Horario 6</item>
+        <item>Horario 7</item>
+        <item>Horario 8</item>
+    </string-array>
 
     <!--Strings para Main Activity-->
     <string name="user">Usuario</string>
@@ -26,6 +36,7 @@
     <string name="mp_opcion02">Gestionar propuestas generales</string>
     <string name="mp_opcion03">Gestionar propuestas de eventos</string>
     <string name="mp_opcion04">Revisar propuestas</string>
+    <string name="mp_opcion05">Gestionar evento especial</string>
     <string name="logout">Cerrar sesión</string>
 
     <!--Strings para UsuarioPerfil Activity-->
@@ -71,5 +82,9 @@
     <string name="btnSecretarioDenegar">Denegar</string>
     <string name="btnEncargadoAprobar">Aprobar</string>
     <string name="btnEncargadoDenegar">Denegar</string>
-
+    <!--Strings para EventoEspecialMeuActivity-->
+    <string name="txtViewCrearEventoEspecial">Crear evento especial</string>
+    <string name="txtViewActualizarEventoEspecial">Actualizar evento especial</string>
+    <string name="txtViewDetalleEventoEspecial">Ver detalle evento especial</string>
+    <string name="headerEventoEspcial">Evento especial</string>
 </resources>

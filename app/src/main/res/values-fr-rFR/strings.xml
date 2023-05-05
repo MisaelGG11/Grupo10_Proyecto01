@@ -22,6 +22,7 @@
     <string name="mp_opcion02">Gérer les propositions générales</string>
     <string name="mp_opcion03">Gérer les propositions d’événements</string>
     <string name="mp_opcion04">Examiner les propositions</string>
+    <string name="mp_opcion05">Gestion d\'un événement spécial</string>
     <string name="nombre_perfil">Nom</string>
     <string name="email_perfil">Courriel</string>
     <string name="telefono_perfil">Téléphone</string>
@@ -43,6 +44,13 @@
     <string name="txtViewDocentePropuestaEstado2">En revue</string>
     <string name="txtViewDocentePropuestaEstado3">Refusé</string>
     <string name="txtViewDocentePropuestaEstado4">Nécessite des changements</string>
+    <string name="txtViewSeleccionarHorarioEventoEspecial">Sélectionner l\'horaire:</string>
+    <string name="txtViewFechaEventoEspecial">Date:</string>
+    <string name="txtViewLocalidadEventoEspecial">Localisation:</string>
+    <string name="txtViewNombreEventoEspecial">Nom de l\'événement:</string>
+    <string name="txtViewTipoEventoEspecial">Type special event:</string>
+    <string name="txtViewEdificioEventoEspecial">Bâtiment:</string>
+
 
     <string name="btnSecretarioRevisar">Examen</string>
     <string name="btnEncargadoRevisar">Examen</string>
@@ -52,5 +60,13 @@
     <string name="btnSecretarioDenegar">Déclin</string>
     <string name="btnEncargadoAprobar">Approuver</string>
     <string name="btnEncargadoDenegar">Déclin</string>
+    <string name="btnVolverEventoEspecial">Retour à</string>
+    <string name="btnActualizarEventoEspecial">Mise à jour</string>
+    <string name="btnCancelarEventoEspecial">Annuler</string>
+    <string name="btnCrearEventoEspecial">Annuler</string>
 
+    <string name="txtViewCrearEventoEspecial">Créer un événement spécial</string>
+    <string name="txtViewActualizarEventoEspecial">Mettre à jour un événement spécial</string>
+    <string name="txtViewDetalleEventoEspecial">Voir les détails d\'un événement spécial</string>
+    <string name="headerEventoEspcial">Événement spécial</string>
 </resources>
