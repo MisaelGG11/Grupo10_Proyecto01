@@ -12,7 +12,7 @@
         android:layout_width="412dp"
         android:layout_height="37dp"
         android:layout_marginTop="36dp"
-        android:text="@string/txtViewDocentePropuestaEspecificaInsertarTitulo"
+        android:text="@string/txtViewPropuestaEspecificaTitulo"
         android:textAlignment="center"
         android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -26,7 +26,7 @@
         android:layout_height="30dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="36dp"
-        android:text="@string/txtViewDocentePropuestaEspecificaInsertarEdificio"
+        android:text="@string/txtViewPropuestaEspecificaEdificio"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewTituloe" />
@@ -37,7 +37,7 @@
         android:layout_height="30dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="18dp"
-        android:text="@string/txtViewDocentePropuestaEspecificaInsertarTipoGrupo"
+        android:text="@string/txtViewPropuestaEspecificaTipoGrupo"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewSubTituloen6" />
@@ -48,7 +48,7 @@
         android:layout_height="30dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="18dp"
-        android:text="@string/txtViewDocentePropuestaEspecificaInsertarCupo"
+        android:text="@string/txtViewPropuestaEspecificaCupo"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewSubTituloen8" />
@@ -59,7 +59,7 @@
         android:layout_height="30dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="18dp"
-        android:text="@string/txtViewDocentePropuestaEspecificaDetalladaDocente"
+        android:text="@string/txtViewPropuestaEspecificaDocente"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewSubTituloen9" />
@@ -72,7 +72,7 @@
         android:layout_marginTop="70dp"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:text="@string/txtViewDocentePropuestaEspecificaDetalladaEstado"
+        android:text="@string/txtViewPropuestaEspecificaEstado"
         android:textSize="20sp"
         android:background="#b4ccb9"
         app:layout_constraintStart_toStartOf="parent"
@@ -99,7 +99,7 @@
         android:layout_height="30dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="18dp"
-        android:text="@string/txtViewDocentePropuestaEspecificaInsertarLocal"
+        android:text="@string/txtViewPropuestaEspecificaLocal"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewSubTituloen1" />
@@ -110,7 +110,7 @@
         android:layout_height="30dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="18dp"
-        android:text="@string/txtViewDocentePropuestaEspecificaInsertarNGrupo"
+        android:text="@string/txtViewPropuestaEspecificaNGrupo"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewSubTituloen7" />
@@ -121,7 +121,7 @@
         android:layout_height="30dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="18dp"
-        android:text="@string/txtViewDocentePropuestaEspecificaInsertarCapacidad"
+        android:text="@string/txtViewPropuestaEspecificaCapacidad"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewSubTituloen2" />
@@ -132,7 +132,7 @@
         android:layout_height="30dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="18dp"
-        android:text="@string/txtViewDocentePropuestaEspecificaInsertarDia"
+        android:text="@string/txtViewPropuestaEspecificaDia"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewSubTituloen3" />
@@ -143,7 +143,7 @@
         android:layout_height="30dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="18dp"
-        android:text="@string/txtViewDocentePropuestaEspecificaInsertarHorario"
+        android:text="@string/txtViewPropuestaEspecificaHorario"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewSubTituloen4" />
@@ -154,7 +154,7 @@
         android:layout_height="30dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="18dp"
-        android:text="@string/txtViewDocentePropuestaEspecificaInsertarMateria"
+        android:text="@string/txtViewPropuestaEspecificaMateria"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewSubTituloen5" />

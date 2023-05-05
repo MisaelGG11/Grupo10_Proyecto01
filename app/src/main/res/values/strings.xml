@@ -63,7 +63,7 @@
     <!--Strings para DocentePropuestaEspecificaInsertar&Detallada Activity-->
     <string name="txtViewPropuestaEspecificaTitulo">Propuesta Específica []</string>
     <string name="txtViewPropuestaEspecificaEdificio">Edificio:</string>
-    <string name="txtViewPropuestaEspecificaTipoGrupo">Tipo de Grupo:</string>
+    <string name="txtViewPropuestaEspecificaTipoGrupo">Tipo:</string>
     <string name="txtViewPropuestaEspecificaCupo">Cupo:</string>
     <string name="txtViewPropuestaEspecificaLocal">Local:</string>
     <string name="txtViewPropuestaEspecificaNGrupo">N° Grupo:</string>
