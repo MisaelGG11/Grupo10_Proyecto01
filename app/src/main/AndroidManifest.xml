@@ -12,6 +12,63 @@
         android:theme="@style/Theme.Grupo10_Proyecto01"
         tools:targetApi="31">
         <activity
+            android:name=".LocalAdministrado_EliminarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Localidad_EliminarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EventoEspecial_EliminarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".tipodeEvento_EliminarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TipodeEvento_ConsultarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EventoEspecial_ConsultarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Localidad_ConsultarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LocalAdministrado_ConsultarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LocalAdministrado_ActualizarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Localidad_ActualizarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EventoEspecial_ActualizarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TipodeEvento_ActualizarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TipodeEvento_InsertarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LocalAdministrado_InsertarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Localidad_InsertarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EventoEspecial_InsertarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EventoEspecial_MenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LocalAdministrado_MenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Localidad_MenuActivity"
+            android:exported="false" />
+        <activity
             android:name=".Tipo_de_Empleado"
             android:exported="false" />
         <activity

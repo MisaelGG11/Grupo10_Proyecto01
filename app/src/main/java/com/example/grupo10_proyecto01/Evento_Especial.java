@@ -16,7 +16,6 @@ public class Evento_Especial  {
     }
 
     //Constructor
-
     public Evento_Especial(int id_evento, String organizador, String nombre_evento, Tipo_evento nombre_tipo_evento, Localidad edificio, Localidad nombre_localidad, String fecha_evento, Horario horainicio, Horario horafinalizacion) {
         this.id_evento = id_evento;
         this.organizador = organizador;
