@@ -3,8 +3,6 @@ package com.example.grupo10_proyecto01;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
-import android.app.ListActivity;
-import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -23,11 +21,11 @@ public class MenuPrincipalActivity extends AppCompatActivity {
     TextView usuario;
     private ArrayAdapter<String> lvAdpter;
 
-    String rol = "Secretario";
-    //Context context;
+    String categoria = "Secretario";
     String user = "Fabio Flores";
-    String[] menu = new String[5];
-    String[] activities={"UsuarioPerfilActivity","DocenteMenuCicloActivity","UsuarioPerfilActivity","UsuarioPerfilActivity","EventoEspecialMenuActivity"};
+    //String[] menu = new String[4];
+    String[] menu = {"Alexander", "Claudia", "Fabio", "Leonardo", "Misael"};
+    String[] activities={"UsuarioPerfilActivity","DocenteMenuCicloActivity","EventoEspecialMenuActivity",""};
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -35,11 +33,17 @@ public class MenuPrincipalActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_principal);
 
-        menu[0] = getResources().getString(R.string.mp_opcion01);
+        /*menu[0] = getResources().getString(R.string.mp_opcion01);
         menu[1] = getResources().getString(R.string.mp_opcion02);
         menu[2] = getResources().getString(R.string.mp_opcion03);
-        menu[3] = getResources().getString(R.string.mp_opcion04);
-        menu[4] = getResources().getString(R.string.mp_opcion05);
+        menu[3] = getResources().getString(R.string.mp_opcion04);*/
+
+        if(categoria == "Secretario"){
+            activities [3] = "SecretarioEscuelaEdificioMenuActivity";
+        }
+        else if (categoria == "Encargado Lab EISI"){
+            activities [3] = "EncargadoLabEISILocalidadMenuActivity";
+        }
 
         lvAdpter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, menu);
         menuPrincipal = findViewById(R.id.lvMenuPrincipal);
@@ -48,8 +52,11 @@ public class MenuPrincipalActivity extends AppCompatActivity {
 
         menuPrincipal.setAdapter(lvAdpter);
         usuario.setText(user);
-        menuPrincipal.setBackgroundColor(Color.parseColor("#eae2cf"));
+        menuPrincipal.setBackgroundColor(Color.parseColor("#C0A9FF"));
 
+        /*if (categoria == "Profesor"){
+            menuPrincipal.getChildAt(3).setVisibility(menuPrincipal.INVISIBLE);
+        }*/
         menuPrincipal.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
